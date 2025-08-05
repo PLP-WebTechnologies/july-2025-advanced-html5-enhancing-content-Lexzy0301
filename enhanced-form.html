@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Enhanced HTML5 Form Assignment" />
+        <title>Enhanced Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Enhanced Registration Form</h1>
+            <p>Please Fill The Form Below.</p>
+        </header>
+
+        <main>
+             <section>
+                <h2>Personal Information</h2>
+                <form action="#" method="post">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Adedeji Olamide" required autocomplete="name"><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="emailaddress" name="emailaddress" placeholder="example@gmail.com" required><br><br>
+
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+
+                    <label for="dob">Date Of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required><br><br>
+
+                    <label for="gender">Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label><br><br>
+
+                    <label for="country">Country:</label><br>
+                    <select id="country" name="country" required>
+                        <option value="">-- Select --</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="USA">United State Of America</option>
+                        <option value="UK">United kingdom</option>
+                        <option value="UAE">United Arab Emirate</option>
+                        <option value="GH">Ghana</option>
+                        <option value="SA">South Africa</option>
+                    </select><br><br>
+
+                    <label for="bio">Short Bio:</label><br>
+                    <textarea id="bio" name="bio" placeholder="tell us about yourself"></textarea><br><br>
+
+                    <label for="terms">Agree to Terms</label>
+                    <input type="checkbox" id="terms" name="terms" required> I agree to the terms<br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+             </section>
+
+              <section>
+                <h2>Sample Data Table</h2>
+                <table border="1">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>Email</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Olamide Adedeji</td>
+                        <td>Nigeria</td>
+                        <td>Olamideadedeji@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Ayo Balogun</td>
+                        <td>United Kingdom</td>
+                        <td>Ayobalogun@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <td>Adeleke David</td>
+                        <td>Atlanta,USA</td>
+                        <td>Davidadeleke@hotmail.com</td>
+                    </tr>
+                    </tbody>
+                </table>
+              </section>
+            
+              <section>
+                <h2>My Image</h2>
+                <img src="TWL LOGO.jpg" alt="profile photo" width="300" height="200">
+              </section> 
+        </main>
+
+        <footer>
+            <p>&copy; trade with Lexzy 2025. All Right Reserved.</p>
+        </footer>
+
+
+    </body>
+</html>
